@@ -3,6 +3,6 @@
 2. Navigate to some category 
 3. Add two most expensive items to the shopping cart from this category
 
-To launch scenario execution properly perform following:
-1. Install Python 3.7;
-2. Right-click on "launch_e-shop.py" and choose - Execute with PowerShell 
+To launch scenario execution properly right-click on "launch_e-shop.ps1" and choose - Execute with PowerShell 
+
+Note: I tried to create this project completely independent and looking as a real automation project. Unfortunately due to lack of time not everything was implemented properly and instead of properly structured project I have all implementations in 1 file only 

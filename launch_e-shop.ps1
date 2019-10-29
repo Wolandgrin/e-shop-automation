@@ -56,8 +56,8 @@ if ($needUpdateChromeDriver) {
   Write-Output "chromedriver updated to version $chromeDriverFileVersion"
 }
 
-py -m pip install --upgrade pip
-py -m pip install -r requirements.txt --no-warn-script-location
-py .\e-shop.py
+.\Python37\python.exe -m pip install --upgrade pip
+.\Python37\python.exe -m pip install -r requirements.txt --no-warn-script-location
+.\Python37\python.exe .\e-shop.py
 Write-Host "All main activities finished, press any key to continue..."
 $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
